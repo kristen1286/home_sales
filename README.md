@@ -17,7 +17,7 @@ module 22 repo challenge
 ---
 ## 🏠Background <a name="background"></a>
 
-UsedSparkSQL to determine key metrics about home sales data. Then used Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached.
+Used SparkSQL to determine key metrics about home sales data. Then used Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached.
 
 ---
 ## 🏠Part 1: Challenge Layout <a name="layout"></a>
@@ -43,15 +43,33 @@ UsedSparkSQL to determine key metrics about home sales data. Then used Spark to 
 
 ## 🏠Part 2: Results <a name="result"></a>
 -  What is the average price for a four bedroom house sold in each year rounded to two decimal places?
+<p align="center">
+<img src="Images/question3.png" alt="pic"   >
+</p>
 -  What is the average price of a home for each year the home was built that have 3 bedrooms and 3 bathrooms rounded to two decimal places?
+<p align="center">
+<img src="Images/question4.png" alt="pic"   >
+</p>
 -  What is the average price of a home for each year built that have 3 bedrooms, 3 bathrooms, with two floors, and are greater than or equal to 2,000 square feet rounded to two decimal places?
+<p align="center">
+<img src="Images/question5.png" alt="pic"   >
+</p>
 -  What is the "view" rating for the average price of a home, rounded to two decimal places, where the homes are greater than
  or equal to $350,000?
+ <p align="center">
+<img src="Images/question6.png" alt="pic"   >
+</p>
 -  Using the cached data, run the query that filters out the view ratings with average price
   greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
-Run the query that filters out the view ratings with average price of greater than or equal to $350,000
+<p align="center">
+<img src="Images/question9.png" alt="pic"   >
+</p>
+-  Run the query that filters out the view ratings with average price of greater than or equal to $350,000
  with the parquet DataFrame. Round your average to two decimal places.
  Determine the runtime and compare it to the cached version.
+ <p align="center">
+<img src="Images/question13.png" alt="pic"   >
+</p>
   
 ---
 ## 🏠Part 3: Conclusion <a name="conclusion"></a>   
